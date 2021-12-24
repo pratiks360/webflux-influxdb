@@ -1,0 +1,7 @@
+spring:
+  influxdb:
+    url: http://localhost:8086/
+    username: test
+    password: test1234
+    database: mydb
+    retention-policy: autogen

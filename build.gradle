@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'io.pratiks'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-web:2.6.1.RELEASE"
+    implementation group: 'org.springframework', name: 'spring-webflux', version: '5.3.6'
+    compile "com.github.miwurster:spring-data-influxdb:1.8"
+}
